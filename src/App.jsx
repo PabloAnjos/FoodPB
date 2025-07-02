@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1 className='text-5xl font-fondamento'>Pablo Anjos</h1>
+      <h1 className='text-5xl font-Poppins'>Pablo Anjos</h1>
     </>
   )
 }
