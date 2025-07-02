@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/*  FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+@theme {
+    --font-fondamento: "Fondamento", cursive;
+}
