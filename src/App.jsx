@@ -2,6 +2,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import imgSushi from './assets/images/sushi.png'
 import imgSegurandoPrato from './assets/images/segurandoprato.png'
+import { Pratos } from './components/Pratos'
 
 function App() {
   return (
@@ -44,6 +45,10 @@ function App() {
                     </p>
               </div>
       </section>
+
+      {/* SECTION POPULARES */}
+
+        <Pratos />
 
       </body>
     </>
