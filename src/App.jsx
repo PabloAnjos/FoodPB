@@ -3,6 +3,9 @@ import { Navbar } from './components/Navbar'
 import imgSushi from './assets/images/sushi.png'
 import imgSegurandoPrato from './assets/images/segurandoprato.png'
 import { Pratos } from './components/Pratos'
+import { Comentarios } from './components/Comentarios'
+import imgWoman from './assets/images/profile-woman.png'
+import imgMan from './assets/images/profile-man.png'
 
 function App() {
   return (
@@ -50,6 +53,26 @@ function App() {
 
         <Pratos />
 
+        {/* SECTION COMENTÁRIOS */}
+
+        <section>
+                  <div className='w-screen h-screen flex flex-col items-center'>
+                        <h1 className='font-Koh-Santepheap text-5xl justify-center flex mt-40'>Comentários</h1>
+
+                        <div className='flex gap-10 mt-15' >
+                              <Comentarios 
+                              profileImg={imgWoman}
+                              clientName={"Daniele Almeida"}
+                              comment={"Ótimo serviço! Encantada com a qualidade dos pratos."}
+                              />
+                              <Comentarios 
+                              profileImg={imgMan}
+                              clientName={"Ricardo França"}
+                              comment={"Não é apenas a comida excelente,o serviço torna a experiência especial."}
+                              />
+                        </div>
+                  </div>
+        </section>
       </body>
     </>
   )

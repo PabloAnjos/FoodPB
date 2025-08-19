@@ -6,7 +6,7 @@ import imgRamenTradicional from '../assets/images/ramen-tradicional.png'
 export function Pratos() {
     return (
         <>
-            <section className='mt-48 h-[1000px]'>
+            <section className='mt-48'>
                 <div className='flex justify-center'>
                       <h1 className='font-Koh-Santepheap font-normal text-5xl'>Populares</h1>
                 </div>
