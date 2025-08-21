@@ -7,6 +7,10 @@ import { Comentarios } from './components/Comentarios'
 import imgWoman from './assets/images/profile-woman.png'
 import imgMan from './assets/images/profile-man.png'
 import { ListaDeOpcoes } from './components/ListaDeOpcoes'
+import logo from './assets/images/logo2.png'
+import iconFacebook from './assets/images/icon-facebook.png'
+import iconInstagram from './assets/images/icon-instagram.png'
+import iconX from './assets/images/icon-x.png'
 
 function App() {
   return (
@@ -77,9 +81,21 @@ function App() {
 
         {/* FOOTER */}
 
-        <section className='bg-amber-700 w-screen h-96 flex justify-center items-center'>
+        <footer className='w-screen h-96 flex flex-col justify-center items-center'>
                   <ListaDeOpcoes />
-        </section>
+                  <hr className='bg-[#F8F5F2] w-[900px]'/>
+
+                  <div className='w-[900px] flex justify-between mt-10'>
+                        <img src={logo} alt="Logo Food JP" />
+
+                        {/* ICONS */}
+                       <div className='flex gap-3 cursor-pointer'>
+                              <img src={iconFacebook} alt="Icone Facebook" />
+                              <img src={iconFacebook} alt="Icone Instagram" />
+                              <img src={iconX} alt="Icone X" />
+                       </div>
+                  </div>
+        </footer>
       </body>
     </>
   )
