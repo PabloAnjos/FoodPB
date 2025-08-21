@@ -6,6 +6,7 @@ import { Pratos } from './components/Pratos'
 import { Comentarios } from './components/Comentarios'
 import imgWoman from './assets/images/profile-woman.png'
 import imgMan from './assets/images/profile-man.png'
+import { ListaDeOpcoes } from './components/ListaDeOpcoes'
 
 function App() {
   return (
@@ -72,6 +73,12 @@ function App() {
                               />
                         </div>
                   </div>
+        </section>
+
+        {/* FOOTER */}
+
+        <section className='bg-amber-700 w-screen h-96 flex justify-center items-center'>
+                  <ListaDeOpcoes />
         </section>
       </body>
     </>
